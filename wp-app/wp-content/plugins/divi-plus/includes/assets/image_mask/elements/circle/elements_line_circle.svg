@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 109 109" style="enable-background:new 0 0 109 109;" xml:space="preserve">
+<g>
+	<defs>
+		
+			<ellipse id="SVGID_1_" transform="matrix(0.9135 -0.4068 0.4068 0.9135 -17.366 26.7216)" cx="54.17" cy="54.21" rx="52.64" ry="52.64"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		<rect x="109.23" y="-47.5" transform="matrix(0.6913 -0.7226 0.7226 0.6913 15.7715 88.3082)" width="4" height="146.4"/>
+		<rect x="96.26" y="-41.73" transform="matrix(0.6913 -0.7226 0.7226 0.6913 7.5946 80.7196)" width="4" height="146.4"/>
+		<rect x="83.29" y="-35.95" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -0.5824 73.1306)" width="4" height="146.4"/>
+		<rect x="70.32" y="-30.18" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -8.7595 65.5413)" width="4" height="146.4"/>
+		<rect x="57.35" y="-24.4" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -16.9366 57.9524)" width="4" height="146.4"/>
+		<rect x="44.38" y="-18.63" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -25.1135 50.3637)" width="4" height="146.4"/>
+		<rect x="31.41" y="-12.86" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -33.2905 42.7747)" width="4" height="146.4"/>
+		<rect x="18.44" y="-7.08" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -41.4675 35.1855)" width="4" height="146.4"/>
+		<rect x="5.47" y="-1.31" transform="matrix(0.6913 -0.7226 0.7226 0.6913 -49.6446 27.5964)" width="4" height="146.4"/>
+	</g>
+</g>
+</svg>

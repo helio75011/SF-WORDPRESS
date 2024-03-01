@@ -1,0 +1,1 @@
+jQuery(document).ready(function(i){i("body").find(".dipl_text_highlighter").length>0&&i("body").find(".dipl_text_highlighter").each(function(){i(this).find(".dipl_text_highlighter_inner_wrapper").length>0&&i(this).find(".st0").each(function(){let t=i(this);t.waypoint({handler:function(){t.css("animation-name","dipl-dash-animation")},offset:"100%"})})})});

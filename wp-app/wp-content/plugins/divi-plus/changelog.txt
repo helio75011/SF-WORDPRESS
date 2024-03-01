@@ -1,0 +1,511 @@
+== Changelog ==
+
+= 1.9.5 =
+Release date: 28th February 2022
+* ADDED: (Woo Products Categories) Order by menu order.
+* ADDED: (Blog Slider, Blog Timeline, Team Slider, Team Grid, Testimonial Slider, Testimonial Grid, WooProducts, WooProductsCarousel, WooProductsCategories) Control for no result text.
+* FIXED: (Tabs) Global icon color was not working.
+* FIXED: (Team Grid) Social icons were not clickable when popup is enabled.
+* FIXED: (Image Mask) Mask was being repeated.
+* FIXED: (Gravity Form Styler) 'Deprecated' Required parameter $render_slug follows optional parameter $content.
+* IMPROVEMENT: Minor CSS fixes.
+
+= 1.9.4 =
+Release date: 11th February 2022
+* NEW: Gravity Form Styler.
+* ADDED: (FAQ Page Schema) Control to make the first item active.
+* ADDED: (Woo Products, Woo Products Carousel) Filter hook for query args.
+* ADDED: (Woo Products Categories) Orderby & Order control.
+* ADDED: (Woo Products, Woo Products Carousel) Order by Price, Stock Status & Menu Order.
+* ADDED: (Woo Products, Woo Products Carousel) Out of Stock label.
+* FIXED: (Woo Products Categories) Empty categories coming on the page.
+* IMPROVEMENT: (Image Accordion) Control for responsive control of orientation.
+* IMPROVEMENT: (Team Grid, Team Slider) Support for few HTML tags in team member short description.
+* IMPROVEMENT: (Woo Products, Woo Products Carousel) Backorder products were not coming when 'Hide out of stock products' is enabled.
+* IMPROVEMENT: (Button) Removed the dependency of jquery migrate.
+* IMPROVEMENT: Removed consolidated CSS file, separate CSS file for each module which improves the load time.
+
+= 1.9.3 =
+Release date: 3rd December 2021
+* ADDED: ALT text control for Timeline image.
+* FIXED: 'NOTICE' Required parameter $render_slug follows optional parameter $content.
+* IMPROVEMENT: Support for newly added icons by Divi.
+* IMPROVEMENT: Minor CSS fixes.
+
+= 1.9.2 =
+Release date: 24th November 2021
+* NEW: Team Grid module.
+* ADDED: (Image Card, Image Card Carousel) Support for mobile options for icon alignment.
+* IMPROVEMENT: (Woo Products, Woo Products Carousel) Supports Divi WooCommerce filters now.
+* IMPROVEMENT: (Woo Products) Page will scrolls to top now on pagination.
+* IMPROVEMENT: (Blog Slider) Extra divider(|) was coming in post meta in layout 3.
+* FIXED: (Flipbox) Back button was not working in layout 1.
+* FIXED: (Woo Products Carousel) Sale Price CSS selector.
+* FIXED: (Ajax Search, Tabs) Not working when added via Ajax.
+* FIXED: (Tabs) Few modules were not working properly when used within content toggle like Divi's native gallery module, DP Masonry Gallery, etc.
+
+= 1.9.1 =
+Release date: 19th August 2021
+* ADDED: (Woo Products Carousel) 'Products Per View' settings added to Coverflow effect too.
+* FIXED: (Content Toggle) Switch text color state was not working properly.
+* FIXED: (Woo Products, Woo Products Carousel) Quickview styling was not coming when used on theme builder template.
+* FIXED: (Tabs) Tab Text Alignment was not working properly.
+* FIXED: (Woo Products, Woo Products Carousel) External Products add to cart button is not visible when 'Show Add to Cart on Hover' setting is enabled.
+* FIXED: (Woo Products) Undefined variable 'show_rating' when pagination is enabled.
+* IMPROVEMENT: Compatible with Divi v4.10
+
+= 1.9.0 =
+Release date: 11th August 2021
+* NEW: Tabs module.
+* NEW: Blog Timeline module.
+* ADDED: (Woo Products) Control for Pagination.
+* ADDED: (Woo Products Carousel) Control for Sale price text.
+* ADDED: (Woo Products, Woo Products Carousel) Control for Offset Number.
+* ADDED: (Woo Products, Woo Products Carousel) Support for Product Tags.
+* ADDED: (Woo Products, Woo Products Carousel) Control for taxonomies relation(OR, AND).
+* ADDED: (Woo Products, Woo Products Carousel) Control for Add to Cart icon.
+* ADDED: (Woo Products, Woo Products Carousel) Control to display/hide Add to Cart icon.
+* ADDED: (Woo Products, Woo Products Carousel) Control for always display Add to Cart icon.
+* ADDED: (Woo Products, Woo Products Carousel) Control for Add to Cart icon placement.
+* ADDED: (Woo Products, Woo Products Carousel) Control for Add to Cart button text for each product type.
+* ADDED: (Woo Products, Woo Products Carousel) Control for Add to Cart button text for out of stock product.
+* ADDED: (Woo Products, Woo Products Carousel) Control for Sale label text.
+* ADDED: (Woo Products Carousel) Control for Arrows position.
+* ADDED: (Woo Products Carousel) Control for Dynamic dots in selected control dots style.
+* ADDED: (Testimonial Slider) Control for Arrows position.
+* ADDED: (Testimonial Slider) Control for Dynamic dots in selected control dots style.
+* ADDED: (Team Slider) Control for Arrows position.
+* ADDED: (Team Slider) Control for Dynamic dots in selected control dots style.
+* ADDED: (Logo Slider) Control for Arrows position.
+* ADDED: (Logo Slider) Control for Dynamic dots in selected control dots style.
+* ADDED: (Image Card Carousel) Control for Arrows position.
+* ADDED: (Image Card Carousel) Control for Dynamic dots in selected control dots style.
+* ADDED: (Blog Slider) Control for Arrows position.
+* ADDED: (Blog Slider) Control for Dynamic dots in selected control dots style.
+* ADDED: (Woo Products, Woo Products Carousel) Control for product quickview.
+* ADDED: (Woo Products, Woo Products Carousel) Control to display star rating.
+* ADDED: (Image Card, Image Card Carousel) Dynamic url support for Read More button.
+* ADDED: (Image Card, Image Card Carousel) Dynamic url support for image.
+* ADDED: (FlipBox) Dynamic url support in button.
+* ADDED: (Team Slider) Control for phone number.
+* ADDED: (Scroll Image) Dynamic image support.
+* ADDED: (Star Rating) Dynamic text support.
+* ADDED: (Button) Responsive and hover control for button text.
+* ADDED: (Text Animator) Control to stop animation on Hover.
+* FIXED: (Scroll Image) Scroll Left Right direction were not working.
+* FIXED: (ImageCard) Half icon visible if there is no image selected.
+* FIXED: (HotSpot) Tooltip was not working right in few cases.
+* FIXED: (HotSpot) Tooltip was not visible in Modal.
+* FIXED: (FlipBox) Front and Back side height was not calculated in few cases.
+* FIXED: (Woo Products, Woo Products Carousel) Hidden products were being displayed.
+* IMPROVEMENT: (Masonry Gallery) Added class to exclude gallery images from lazy load.
+* IMPROVEMENT: (Text Animator) 'Select Layout' toggle renamed to 'Animation' and moved in Content tab.
+
+
+
+= 1.8.2 =
+Release date: 09th June 2021
+* ADDED: (Blog Slider) Control to set gradient and image in post content.
+* ADDED: (Blog Slider) Control for box shadow on single slide.
+* ADDED: (Blog Slider) Control for padding on slider container.
+* ADDED: (Image Card Carousel) Control for padding on slider container.
+* ADDED: (Image Card Carousel) Control to select arrows.
+* ADDED: (Image Card Carousel) Equalize slides height control.
+* ADDED: (Logo Slider) Control for padding on slider container.
+* ADDED: (Logo Slider) Control to select arrows.
+* ADDED: (Team Slider) Control for box shadow on single slide.
+* ADDED: (Team Slider) Control for padding on slider container.
+* ADDED: (Testimonial Slider) Control for box shadow on single slide.
+* ADDED: (Testimonial Slider) Control for padding on slider container.
+* ADDED: (Testimonial Slider) Control to select arrows.
+* ADDED: (Woo Products Carousel) Control for box shadow on single slide.
+* ADDED: (Woo Products Carousel) Control for padding on slider container.
+* ADDED: (Woo Products Carousel) Control to select arrows.
+* ADDED: (Woo Products Carousel) Control for equalize slides height.
+* ADDED: (Woo Product) Control for Sale price text.
+* ADDED: (Price List) Column selection for price list items.
+* ADDED: (Price List) Icon support for thumbnail image.
+* ADDED: (Price List) Control to set image width.
+* ADDED: (Interactive Image Card) Control for opacity on the images on or without hover.
+* ADDED: (Timeline) Control to set image size and image alignment in child item.
+* ADDED: (Ajax Search) Text control for No result text.
+* ADDED: (Ajax Search) Width, Height, Border control for Featured Image.
+* FIXED: (Interactive Image Card) Content was not showing correctly on some layouts.
+* FIXED: (Interactive Image Card) Border Radius was not working properly.
+* FIXED: (Price List) JSX warning.
+* FIXED: (Price List) Description text alignment was not working on frontend builder.
+* FIXED: (Image Mask) Element Gradient was not working on builder with opacity.
+* FIXED: (Woo Product Carousel) Add to Cart button was not showing after previous update.
+* FIXED: (FAQ Page Schema) Undefined variable notice.
+* FIXED: (Star Rating) Undefined variable notice.
+* FIXED: (Bar Counter) Animated stripe color.
+* FIXED: (Image Card Carousel) Global Card Icon font size.
+* FIXED: (Image Card Carousel) Default shape background color.
+* FIXED: (Woo Products) Layout was breaking in some cases.
+* FIXED: (Woo Products Categories) Layout was breaking in some cases.
+* FIXED: (Modal) Modal was not triggering in few cases.
+
+= 1.8.1 =
+Release date: 17th May 2021
+* FIXED: (Image Accordion) Trailing comma’s are not allowed in function calls in PHP 7.2 or earlier
+
+= 1.8.0 =
+Release date: 13th May 2021
+* NEW: Tilt Image module.
+* ADDED: (Image Accordion) Control to display title and icon in default state.
+* ADDED: (Woo Products) Added New Layout(Layout 2).
+* ADDED: (Woo Products Carousel) Added New Layout(Layout 2).
+* IMPROVEMENT: (Timeline) Control to set the image alignment in Date Tree layout.
+* IMPROVEMENT: (Bar Counter) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Button) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Content Toggle) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Faq Page Schema) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Flipbox) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Image Accordion) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Image Magnifier) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Masonry Gallery) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Scroll Image) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Separator) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Team Slider) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Testimonial Grid) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Text Animator) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Text Highlighter) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Timeline) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Woo Products) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Woo Categories) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Ajax Search) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Lottie) Place module's custom JS with the module to stop loading everywhere.
+* IMPROVEMENT: (Modal) Place module's custom JS with the module to stop loading everywhere.
+* FIXED: (Hotspot) Marker Image size was not working properly with the element position.
+* FIXED: WooCommerce Modules were not visible in builder on multi site.
+
+= 1.7.2 =
+Release date: 12th April 2021
+* IMPROVEMENT: (Hotspot) Improved the display style of the tooltip content.
+* FIXED: (Ajax Search) Contact Form 7 was not working in some conditions with Ajax Search Module.
+* FIXED: (Timeline) The stem was overlapping when the scroll effect was enabled.
+* FIXED: (Timeline) The stem position was not correctly working on the visual builder.
+* FIXED: (Masonry Gallery) Uncaught ValueError: Unknown format specifier.
+
+= 1.7.1 =
+Release date: 07th April 2021
+* ADDED: (Blog Slider) Two New layouts(Layout 3 & Layout 4).
+* ADDED: (Blog Slider) Setting to control category text.
+* ADDED: (Blog Slider) Option to select arrow.
+* ADDED: (Blog Slider) Control to size and color of meta icons.
+* FIXED: (Ajax Search) Search is not working with WC active.
+
+= 1.7.0 =
+Release date: 17th March 2021
+* ADDED: (Content Toggle) Control for margin & padding of toggle container.
+* ADDED: (Content Toggle) New toggle layout.
+* ADDED: (Image Mask) No Mask Option.
+* ADDED: (Blog Slider, Image Card Carousel, Logo Slider, Team Slider, Testimonial Slider, WooProducts Carousel) Responsive Slides per View control.
+* ADDED: (Blog Slider, Image Card Carousel, Logo Slider, Team Slider, Testimonial Slider, WooProducts Carousel) Slides per Group control.
+* ADDED: (Blog Slider, Image Card Carousel, Logo Slider, Team Slider, Testimonial Slider, WooProducts Carousel) Spacing between slides control.
+* ADDED: (Blog Slider) Coverflow, Cube, and Flip slide effect.
+* ADDED: (Team Slider) Cube and Flip slide effect.
+* ADDED: (Facebook Comments, Facebook Like, Facebook Share, Twitter Share) Dynamic Url support.
+* ADDED: (Twitter Share) Dynamic Text support.
+* ADDED: (Price List) Control for divider width, style, and color in Layout 1.
+* ADDED: (Image Card Carousel) Control for 'Arrows Background Color, Arrows Border Size, Arrows Background Border Color, Arrows Padding'.
+* ADDED: (Woo Products Carousel) Control for 'Arrows Background Color, Arrows Border Size, Arrows Background Border Color, Arrows Padding'.
+* ADDED: (Testimonial Slider) Control for 'Arrows Background Color, Arrows Border Size, Arrows Background Border Color, Arrows Padding'.
+* ADDED: (Blog Slider) Control for 'Slide Effect, Control Dot style, Arrows Padding'.
+* ADDED: (Logo Slider) Control for 'Dot Pagination style, Arrows Padding'.
+* ADDED: (Team Slider) Control for 'Dot Pagination style, Arrows Padding'.
+* FIXED: (Image Mask) Mask was cropping the image from the bottom.
+* FIXED: (Star Rating) JSX warning.
+* FIXED: Testimonial and Team Member custom post types were not being created with standalone divi builder plugin.
+* IMPROVEMENT: (Image Mask) Added alt tag for the image.
+* IMPROVEMENT: (Image Mask) Control to set the position of the elements on mobile.
+* IMPROVEMENT: (Content Toggle) Default font size and line height was not working on the builder.
+* IMPROVEMENT: (Logo Slider) 'Select Arrow Shape' settings renamed to 'Use Arrow Background'.
+* IMPROVEMENT: (Logo Slider) 'Slide Image Width' settings renamed to 'Logo Width'.
+* IMPROVEMENT: (Logo Slider) 'Slide Image Container Height' settings renamed to 'Logo Container Height'.
+* IMPROVEMENT: (Logo Slider) 'Slide Image Alignment' settings renamed to 'Logo Alignment'.
+* IMPROVEMENT: (Logo Slider) 'Enable Loop, Autoplay, Autoplay Delay, Pause On Hover, Transition Duration, Show Arrows, Show Arrows Only on Hover, Show Dots Pagination' moved under Slider toggle of General tab.
+* IMPROVEMENT: (Logo Slider) 'Arrow Font Size, Arrow Color, Use Arrow Background, Arrow Background Border, Arrow Background Border Color, Active Dot Pagination Color, Inactive Dot Pagination Color' moved under Slider toggle of Design tab.
+* IMPROVEMENT: (Logo Slider) 'Logo Width, Logo Container Height, Logo Alignment' moved under Logo toggle of Design tab.
+* IMPROVEMENT: (Team Slider) 'Enable Loop, Autoplay, Autoplay Delay, Pause On Hover, Transition Duration, Show Arrows, Previous Arrow, Next Arrow, Show Arrows Only on Hover, Show Control Dots' moved under Slider toggle of General tab.
+* IMPROVEMENT: (Team Slider) 'Arrow Font Size, Arrow Color, Arrow Background Border, Arrow Background Border Color, Active Dot Pagination Color, Inactive Dot Pagination Color' moved under Slider toggle of Design tab.
+* IMPROVEMENT: (Blog Slider) 'Enable Loop, Autoplay, Autoplay Delay, Pause On Hover, Transition Duration, Show Arrows, Show Arrows Only on Hover, Show Dots Pagination' moved under Slider toggle of General tab.
+* IMPROVEMENT: (Blog Slider) 'Arrow Font Size, Arrow Color, Arrow Background Border, Arrow Background Border Color, Active Dot Pagination Color, Inactive Dot Pagination Color' moved under Slider toggle of Design tab.
+* IMPROVEMENT: (Hotspot) Added Admin Label option for hotspot marker.
+
+= 1.6.7 =
+Release date: 25th February 2021
+* ADDED: Increased number of slides per view in all slider modules.
+* ADDED: (Text Highlighter) Control to delay the stroke paint.
+* ADDED: (Text Highlighter) Control for the stroke width.
+* ADDED: (Image Card Carousel) Global styles for the icon.
+* ADDED: (Image Magnifier) Control for image alignment.
+* ADDED: (Team Slider) Global alignment control.
+* FIXED: (Woo Products, Woo Products Carousel) Title strike color and underline color was not displaying.
+* FIXED: (Logo Slider) Module border was not displaying on theme builder.
+* FIXED: (Team Slider) Arrow's background not covering the whole icon.
+* FIXED: (Testimonial Carousel) Quote icon was not visible if testimonial content was coming from divi builder.
+* FIXED: (Testimonial Carousel) Module border was not displaying on theme builder.
+* FIXED: (Image Card Carousel) Global text alignment was not working properly.
+* FIXED: (Image Card, Image Card Carousel) Text color light was not working on the builder.
+* FIXED: (Image Card, Image Card Carousel) Default icon color was not applying on the builder.
+* FIXED: (Image Card, Image Card Carousel) Half icon visible if there is no image selected.
+* FIXED: (Blog Slider) Module border was not displaying on theme builder.
+* FIXED: (Blog Slider) Content margin-left, right breaking the layout.
+* FIXED: (Blog Slider) Custom read more icon was not visible on the builder.
+* FIXED: (Blog Slider) Excerpt was coming even after excerpt length set to 0 in case of custom excerpt defined.
+* FIXED: (Masonry Gallery) Overlay was not coming when the icon is not selected.
+* FIXED: (Timeline) JSX warning.
+* FIXED: (Breadcrumb) JSX warning.
+* FIXED: (Text Highlighter) Removed extra space before and after the highlighted text.
+* FIXED: (Modal) Default CSS of few HTML tags is not coming over.
+* FIXED: Few CSS changes were not coming on the archive page in the case of parent-child modules.
+* IMPROVEMENT: (Text Highlighter) Added waypoint js support for the animation.
+
+
+= 1.6.6 =
+Release date: 10th February 2021
+* FIXED: (Testimonial Slider, Testimonial Grid) Builder shortcode was coming in case page builder was used in testimonial module.
+* FIXED: (Timeline) Text settings were not working.
+* FIXED: (Timeline) Box shadow for was not working correctly for timeline items.
+* FIXED: (Timeline) Stem was disappearing after adding the background.
+* FIXED: (Timeline) Icon border was not working.
+* FIXED: (Breadcrumbs) Global text alignment was not working.
+* FIXED: (Modal) 'Disable on' settings not working properly.
+* FIXED: (Scroll Image) Scroll was not working on first-time page load.
+* FIXED: (Image Card, Image Card Carousel) Content Background default properties were not working.
+* FIXED: (Image Card Carousel) Default title was coming when leaving empty.
+* FIXED: (Content Toggle) Few modules were not working properly when used within content toggle like Divi's native gallery module, DP Masonry Gallery, etc.
+* FIXED: (Content Toggle) Toggle not working on the visual builder.
+* IMPROVEMENT: (Content Toggle) Toggle will not display when there is no content in either toggle.
+* IMPROVEMENT: (Content Toggle) Added default font properties.
+* IMPROVEMENT: (Text Highlighter) Removed extra space coming before and after the main text.
+* IMPROVEMENT: (Timeline) Better rendering for the visual builder.
+* IMPROVEMENT: (Timeline) Improved responsiveness for date tree layout.
+* IMPROVEMENT: Improved update mechanism.
+* IMPROVEMENT: Improved CSS & JS.
+
+= 1.6.5 =
+Release date: 12th January 2021
+* NEW: Woo Products Category Module.
+* ADDED: (Fancy Heading) Individual text-align control for pre, post, and main heading.
+* ADDED: (Separator) Border control.
+* ADDED: (Separator) Separator with the image.
+* ADDED: (Before After Slider) Dynamic Content support for the image.
+* FIXED: (Before After Slider) White dots in the slider control.
+* FIXED: (Fancy Text) Radial Gradient was not working properly in the Background Overlay.
+* FIXED: (Breadcrumbs) Separator Alignment.
+* FIXED: (Breadcrumbs) Open in new tab setting was not working.
+* FIXED: (Breadcrumbs) Home Icon was not displaying on the front end.
+* FIXED: (Breadcrumbs) Home Icon size was not working in some cases.
+* FIXED: (Breadcrumbs) On hover background issue.
+* FIXED: (Testimonial Slider) Equalize testimonial height not working.
+* IMPROVEMENT: (Before After Slider) Added default font properties.
+* IMPROVEMENT: (Separator) Added default icon in the separator with the icon.
+
+
+= 1.6.4 =
+Release date: 06th January 2021
+* FIXED: (Masonry Gallery) Parse error: syntax error, unexpected ')'.
+* FIXED: (Flipbox) Flipbox stopped working.
+* FIXED: (Testimonial Slider) Slider stopped looping after one loop.
+* FIXED: (Image Card Carousel) Carousel stopped looping after one loop.
+* FIXED: (Woo Products Carousel) Carousel stopped looping after one loop.
+* IMPROVEMENT: Updated Swiper CSS & JS to v6.4.5.
+* IMPROVEMENT: Minor CSS fixes.
+
+= 1.6.3 =
+Release date: 04th January 2021
+* ADDED: (Woo Products, Woo Products Carousel) Control for products view type.
+* ADDED: (Woo Products, Woo Products Carousel) Control to hide out of stock products.
+* ADDED: (Woo Products, Woo Products Carousel) Control for product image size.
+* ADDED: (Woo Products, Woo Products Carousel) Control for use current loop.
+* ADDED: (Button) Control for width, margin, and padding.
+* ADDED: (Masonry Gallery) Multiple options to display title and caption.
+* ADDED: (Masonry Gallery) Multiple styles to display title and caption in the lightbox.
+* FIXED: (Fancy Text) Text visibility issue on some browsers.
+* FIXED: (Blog Slider) Bottom padding coming on slides when used on the single post page.
+* FIXED: (FAQ Page Schema) Not coming in 1 column on the visual builder.
+* FIXED: (Before After Slider) Notice: 'Undefined variable: after_image_wrapper'.
+* FIXED: (Before After Slider) Notice: 'Undefined variable: before_image_wrapper'.
+* FIXED: (Text Animator) Left, Right spacing issue in empty prefix and postfix text.
+* FIXED: (Woo Products, Woo Products Carousel) Notice: 'Undefined variable: show_add_to_cart_on_hover' on builder.
+* IMPROVEMENT: (Flipbox) Added Imagesloaded support.
+* IMPROVEMENT: (Masonry Gallery) 'Title & Caption Background Color' field moved under 'Lightbox' toggle.
+* IMPROVEMENT: Minor CSS fixes.
+
+= 1.6.2 =
+Release date: 16th December 2020
+* NEW: Scroll Image Module.
+* NEW: Bar Counter Module.
+* FIXED: (Woo Products, Woo Products Carousel) Button styling is not coming in the case of out-of-stock products.
+* FIXED: (Facebook Page) Page is going out of the container on mobile devices.
+
+= 1.6.1 =
+Release date: 09th December 2020
+* NEW: Interactive Image Card Module.
+* NEW: Woo Products Module.
+* NEW: Woo Products Carousel Module.
+* FIXED: (Image Mask) Scale property is not working properly.
+* FIXED: (Image Magnifier) Minor Fixes.
+* FIXED: (Testimonial) Testimonial meta fields were displaying incorrectly when some of them were empty.
+* FIXED: (Testimonial Slider) Pause on hover not working properly.
+* FIXED: (Team Slider) Pause on hover not working properly.
+* FIXED: (Logo Slider) Pause on hover not working properly.
+* FIXED: (Blog Slider) Pause on hover not working properly.
+* FIXED: (Image Card Carousel) Pause on hover not working properly.
+* FIXED: (Masonry Gallery) Imagesloaded was not working properly.
+* FIXED: (Particle Background) Not covering full height sections.
+* FIXED: Extensions were not coming on Floating Image, Image Magnifier, Image Card Carousel Modules.
+* IMPROVEMENT: Minor CSS fixes.
+
+= 1.6.0 =
+Release date: 24th November 2020
+* NEW: Scheduler Extension.
+* NEW: Visibility Manager Extension.
+* NEW: Particle Background Extension.
+* NEW: Divi Library Shortcode Extension.
+* NEW: Image Card Carousel Module.
+* NEW: Image Magnifier Module.
+* NEW: Floating Image Module.
+* ADDED: (Blog Slider) Border controls for a single post.
+* FIXED: (Team Slider) Notice: 'undefined index excerpt_lenth and content' on the visual builder.
+* FIXED: (Testimonial Slider) Different opening quote icons on the visual builder and front end.
+* FIXED: (Flipbox) Diagonal Flip.
+* FIXED: (Flipbox) Notice: 'Trying to access array offset on the value of type null.'
+* FIXED: (Flipbox) Backside is visible when border-radius is given in 3D Cube.
+* FIXED: (Separator) Shape Border when a hexagon is selected.
+* FIXED: (Advanced Button) Background position when horizontal and vertical shutter hover fill style applied.
+* IMPROVEMENT: (Modal) Higher z-index.
+* IMPROVEMENT: (Image Card) Changed text_domain to divi-plus.
+* IMPROVEMENT: (Testimonial Slider) Removed computed_affects from non-computed fields.
+
+= 1.5.5 =
+Release date: 13th November 2020
+* NEW: Image Mask Module.
+* NEW: Text Highlighter Module.
+* ADDED: (Fancy Heading) Stack Option.
+* ADDED: (Fancy Heading) Dynamic Content Support.
+* ADDED: (Fancy Text) Dynamic Content Support.
+* ADDED: (Hotspot) Dynamic Content Support.
+* ADDED: (Hotspot) Library Layout For Hotspot Items Tooltip.
+* ADDED: (Hotspot) Mobile Size Control in Hotspot Marker Image.
+* ADDED: (Hotspot) Link Option in Hotspot Marker Item.
+* FIXED: (Fancy Heading) Padding issue in Fancy Heading Pre Post Text.
+
+= 1.5.4 =
+Release date: 30th Oct 2020
+* FIXED: (Team Slider) Instagram icon color not coming right on mobile devices.
+
+= 1.5.3 =
+Release date: 28th Oct 2020
+* NEW: Image Accordion Module.
+* NEW: Team Slider Module.
+* NEW: Image Card Module.
+* FIXED: (Content Toggle) Currency symbol overlapping when pricing table module is used in content toggle.
+* FIXED: (FAQ Schema) Border, Box Shadow, Background was applied to all the faq modules on the page when added on anyone.
+* FIXED: (Modal) Fullscreen video issues in some browsers.
+* FIXED: (Modal) Video Autoplay was not working when the modal triggered on page load due to the browser's autoplay policy. Video will allow autoplay now in mute mode.
+* FIXED: (Modal) Default Background properties were not working.
+* FIXED: (Flipbox) Default Background properties were not working.
+* FIXED: (Logo Slider) CSS conflict with other plugins due to different versions of swiper.
+* FIXED: (Blog Slider) CSS conflict with other plugins due to different versions of swiper.
+* FIXED: (Testimonial Slider) CSS conflict with other plugins due to different versions of swiper.
+
+= 1.5.2 =
+Release date: 13th October 2020
+* NEW: Lottie Module.
+* NEW: Masonry Gallery Module.
+* ADDED: (Modal) 'Element CSS Class' trigger element type.
+* FIXED: (Modal) Visibility issues in some cases.
+* FIXED: (Twitter) Twitter script is coming on the page even when there is no module on the page.
+* FIXED: (Content Toggle) Not working properly in case of nested toggles.
+
+= 1.5.1 =
+Release date: 25th September 2020
+* NEW: Testimonial Grid module.
+* NEW: Testimonial Slider module.
+* FIXED: (Modal) Not working on divi builder plugin.
+* FIXED: (Modal) Not visible on divi theme builder.
+
+= 1.5.0 =
+Release date: 15th September 2020
+* NEW: Facebook Embedded Post module.
+* NEW: Facebook Embedded Video module.
+* NEW: Facebook Embedded Comment module.
+* NEW: Twitter Timeline module.
+* NEW: Twitter Follow Button module.
+* NEW: Twitter Share Button module.
+* NEW: Twitter Embedded Tweet module.
+* NEW: Star Rating module.
+* ADDED: (Form Styler) Box shadow to the buttons.
+* ADDED: (Ajax Search) Custom text field for no result found.
+* ADDED: (Ajax Search) Order by & Order control.
+* ADDED: (Ajax Search) Control for Border & Box Shadow on search result box.
+* ADDED: (Ajax Search) Option to display product price.
+* ADDED: (Ajax Search) Column control for result items.
+* ADDED: (Ajax Search) Control to display the results in masonry.
+* ADDED: (Ajax Search) Control to hide scrollbar of result box.
+* ADDED: (Modal) 'Exit Intent' trigger type.
+* ADDED: (Modal) Control for closing modal on 'ESC' key.
+* ADDED: (Modal) Control to prevent re-rendering of modal on 'On-Page Load' trigger type.
+* ADDED: (Modal) Control for Background overlay.
+* ADDED: (Modal) Control for footer close button alignment.
+* ADDED: (Modal) Control for auto-playing video.
+* FIXED: (Ajax Search) Woocommerce products that were excluded from the search were coming in the results.
+* FIXED: (Form Styler) Changes were not implementing on the visual builder.
+* IMPROVEMENT: (Modal) Better rendering style so that it does not overlap with any other element.
+* IMPROVEMENT: Minor CSS Fixes.
+
+= 1.4.3 =
+Release date: 20th August 2020
+* NEW: FAQPage Schema Module.
+* NEW: Ajax Search Box Module.
+* NEW: Facebook Like Module.
+* NEW: Facebook Comment Module.
+* NEW: Facebook Feed Module.
+* NEW: Facebook Share Module.
+* FIXED: Timeline Stem Height issue.
+
+= 1.4.2 =
+Release date: 06th August 2020
+* NEW: Price List Module.
+* NEW: Blog Slider Module.
+* FIXED: Fixed modal display issues on mobile devices.
+* FIXED: Logo Slider breaking the page in some cases.
+* FIXED: Flip Box diagonal flip issue.
+* FIXED: Hotspot tooltip background issue.
+
+= 1.4.1 =
+Release date: 08th July 2020
+* NEW: Flip Box Module.
+
+= 1.4.0 =
+Release date: 01st July 2020
+* NEW: Logo Slider Module.
+* NEW: Form Styler Module.
+* NEW: Modal Popup Module.
+* IMPROVEMENT: Improved code structure.
+
+= 1.3.0 =
+Release date: 01st June 2020
+* NEW: Button Module.
+* NEW: How To Schema Module.
+* NEW: Timeline Module.
+* NEW: Content Toggle Module.
+* NEW: Business Hours Module.
+* NEW: Panel to control the number of active modules in the builder.
+* IMPROVEMENT: Icon animation in hotspot marker.
+* FIXED: Import issue in Hotspot.
+
+= 1.2.0 =
+Release date: 21st April 2020
+* NEW: Added Text Animator and Hotspot Module.
+
+= 1.1.0 =
+Release date: 28th November 2019
+* NEW: New module Before After Slider. 
+
+= 1.0.0 =
+Release date: 25th November 2019
+* Initial release.
